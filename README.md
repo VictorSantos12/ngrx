@@ -42,3 +42,7 @@
   O diagrama a seguir representa no geral ums visão geral do fluxo de estado de uma
   aplicação no NgRx.
 </h5>
+
+<div align="center">
+  <img width="90%" src="https://user-images.githubusercontent.com/61476935/115942501-fbab2a80-a480-11eb-8386-ff31ff33f434.png">
+</div>
