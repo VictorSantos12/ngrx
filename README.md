@@ -9,9 +9,9 @@
 </h1>
 
 <h5>
-  Store é o gerenciador de estados globais do RxJS para aplicações Angular, inspirado pelo Redux. Sendo um
-  container de controle de estados, o Store foi desenvolvido para ajudar na criação de aplicações consistentes
-  e performáticas sobre a estrutura do Angular.
+  Store é o gerenciador de estados globais do RxJS para aplicações Angular. Inspirado pelo Redux, comum a
+  desenvolvedores React, é um container de controle de estados desenvolvido para ajudar na criação de
+  aplicações consistentes e performáticas sobre a estrutura do Angular.
 </h5>
 
 <h3>
