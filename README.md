@@ -20,7 +20,7 @@
 
 <ul>
   <li>
-   Ações descrevem eventos únicos que são despachados dos componentes e service;
+   Ações descrevem eventos únicos que são despachados dos componentes e services;
   </li>
   <li>
    Mudanças de estado são gerenciadas por funções puras chamadas de <strong>reducers</strong>,
