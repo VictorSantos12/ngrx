@@ -48,17 +48,17 @@
   Arquitetura
 </h2>
 
-<h3>
+<h2>
   Action
-</h3>
+</h2>
 
 Ações são um dois pilares de sustentação do NgRx. Ações expressam eventos únicos que acontecem por tada
 a aplicação. De interações do usuário, interações externas no processo de network requests e interações
 diretas com Api's, todos estes eventos e outros podem ter seu início com uma action ou definirem uma.
 
-<h3>
+<h2>
   A Interface das Actions
-</h3>
+</h2>
 
     interface Action {
       type: string;
