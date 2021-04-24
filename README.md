@@ -4,9 +4,9 @@
 <br>     
 <img src="https://img.shields.io/static/v1?label=Angular&message=Library&color=purple&style=for-the-badge&logo=Angular"/>
 
-<h2>
+<h1>
   Store
-</h2>
+</h1>
 
 <h5>
   Store é o gerenciador de estados globais do RxJS para aplicações Angular, inspirado pelo Redux. Sendo um
