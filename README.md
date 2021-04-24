@@ -8,11 +8,9 @@
   Store
 </h1>
 
-<h5>
   Store é o gerenciador de estados globais do RxJS para aplicações Angular. Inspirado pelo Redux, comum a
   desenvolvedores React, é um container de controle de estados desenvolvido para ajudar na criação de
   aplicações consistentes e performáticas sobre a estrutura do Angular.
-</h5>
 
 <h3>
   Conceitos Chave
@@ -38,9 +36,8 @@
   Diagrama
 </h3>
 
-<h4>
   O diagrama a seguir representa no geral uma visão do fluxo de estado de uma aplicação no NgRx.
-</h4>
+
 
 <div align="center">
   <img width="80%" src="https://user-images.githubusercontent.com/61476935/115942501-fbab2a80-a480-11eb-8386-ff31ff33f434.png">
