@@ -49,6 +49,23 @@
 </h1>
 
 <h2>
+  Store
+</h2>
+
+O Store é o ambiente que matém agrupadas todas as informações definidas como estados de uma aplicação. 
+A partir dele é possível acessar e definir novos estados e alocá-los no lugar dos anteriores de forma
+não definitiva. Abaixo temos um exemplo da declaração dos estados de uma aplicação:
+
+
+     export interface AppState {
+     
+        books: BookList[];
+        authors: AuthorDetailes[];
+        theme: Theme[];
+        
+     }
+
+<h2>
   Action
 </h2>
 
