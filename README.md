@@ -52,9 +52,12 @@
   Action
 </h2>
 
-Ações são um dois pilares de sustentação do NgRx. Ações expressam eventos únicos que acontecem por tada
+Ações são um dos pilares de sustentação do NgRx. Ações expressam eventos únicos que acontecem por tada
 a aplicação. De interações do usuário, interações externas no processo de network requests e interações
-diretas com Api's, todos estes eventos e outros podem ter seu início com uma action ou definirem uma.
+diretas com Api's, todos estes eventos e outros podem ter seu início com uma action ou definirem uma. 
+Um ponto importante a se manter em mente é que as Actions não geram a mudança de estado de forma direta,
+mas os reducers, que serão explicados mais a frente, observam seus tipos e a partir disso geram a mudança
+de estado.
 
 <h2>
   A Interface das Actions
@@ -139,3 +142,24 @@ lidar com a action. Action creators promovem um meio consistente e seguro de con
 No caso acima o action creator <strong>login</strong> recebe um objeto de <strong>username</strong> e <strong>password</strong>,
 retornando um objeto simples com uma propriedade <strong>type</strong> de <strong>[Login Page] Login</strong>, com 
 <strong>username</strong> e <strong>password</strong> como propriedades adicionais.
+
+<h2>Reducers</h2>
+
+Os Reducers no NgRx são os responsáveis por lidar com a transição de um estado para o próximo em uma aplicação. As funções de um 
+Reducer tratam estas transiçôes determinando qual action tratar baseado em seu tipo, e igualmente definindo a mudança no state.
+
+<h2>A Função de um Reducer</h2>
+
+É responsabilidade dos Reducers gerenciar certos pontos importantes de cada novo estado:
+
+<ul>
+ <li>
+   Uma interface ou tipo que define a forma do estado;
+ </li>
+ <li>
+   Os argumentos, incluíndo o estado inicial ou estado e ação mais recentes;
+ </li>
+ <li>
+   A função que lida com as mudanças de estado e suas ações associadas;
+ </li>
+</ul>
