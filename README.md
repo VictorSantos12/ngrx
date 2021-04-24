@@ -71,7 +71,7 @@ possível adicionar propriedades a uma action, provendo contextos ou metadata ad
 
 Abaixo há alguns exemplos de actions resultantes de eventos:
 
-     {
+     { 
         type: '[Auth API] Login Success'
      }
 
