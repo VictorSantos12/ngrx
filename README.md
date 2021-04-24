@@ -12,9 +12,9 @@
   desenvolvedores React, é um container de controle de estados desenvolvido para ajudar na criação de
   aplicações consistentes e performáticas sobre a estrutura do Angular.
 
-<h3>
+<h2>
   Conceitos Chave
-</h3>
+</h2>
 
 <ul>
   <li>
@@ -32,12 +32,13 @@
   </li>
 </ul>
 
-<h3>
+<h2>
   Diagrama
-</h3>
+</h2>
 
-  O diagrama a seguir representa no geral uma visão do fluxo de estado de uma aplicação no NgRx.
-
+<div align="center">
+   O diagrama a seguir representa no geral uma visão do fluxo de estado de uma aplicação no NgRx.
+</div>
 
 <div align="center">
   <img width="80%" src="https://user-images.githubusercontent.com/61476935/115942501-fbab2a80-a480-11eb-8386-ff31ff33f434.png">
@@ -90,9 +91,9 @@ Abaixo há alguns exemplos de actions resultantes de eventos:
    usuário e sua senha são definidos como dados adicionais providos pela página de login;
 </h5> 
 
-<h3>
+<h2>
   Escrevendo Actions
-</h3>
+</h2>
 
 Há alguns pontos a se ater quando se define e escreve actions, permitindo um melhor aproveitamento de suas funções:
 
