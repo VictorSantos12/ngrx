@@ -44,9 +44,9 @@
   <img width="80%" src="https://user-images.githubusercontent.com/61476935/115942501-fbab2a80-a480-11eb-8386-ff31ff33f434.png">
 </div>
 
-<h2>
+<h1>
   Arquitetura
-</h2>
+</h1>
 
 <h2>
   Action
