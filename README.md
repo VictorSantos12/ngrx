@@ -157,7 +157,7 @@ forma de definição de actions é comumente utilizada na comunidade de desenvol
     export type BookActions = BookAll | BookNew;
    
 Uma descrição bastante simplória dessa forma de uso é que três classes são criadas e exportadas; Uma definindo as ações e
-seus tipos; E outra definindo o comportamento da action, incluíndo valores adicionais que seriam importantes no processo de
+seus tipos; Outra definindo o comportamento da action, incluíndo valores adicionais que seriam importantes no processo de
 definição do novo estado dentro do reducer, sendo utilizado um constructor e um payload para tal. Em caso de não ser preciso
 ter acesso a esses valores, o constructor é descartado, sendo ambos os casos vistos acima. Uma terceira classe agrupa os tipos
 para que estes sejam acessados no reducer.
