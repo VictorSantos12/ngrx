@@ -171,7 +171,7 @@ definindo a mudança no state.
 
 <h3>O que é uma função pura ?</h3>
 
-Por definição uma função pura tem o valores trabalhados nela vindos exclusivamente via parâmetro: 
+Por definição uma função pura tem os valores trabalhados nela vindos exclusivamente via parâmetro: 
 
 >// pure function
 >
