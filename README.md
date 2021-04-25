@@ -32,6 +32,14 @@
 </ul>
 
 <h2>
+  O Estado
+</h2>
+
+O estado de uma aplicação, componente ou service é definído pelo nível de acesso a informações
+que ele possui, do momento em que é criado até que outro seja definido. Um estado para o desenvolvimento
+reativo é imutável, ou seja, ele nunca é descartado, mas sofre um update ou outdate de informações
+
+<h2>
   Diagrama
 </h2>
 
