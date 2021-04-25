@@ -247,4 +247,18 @@ de comparação é usada para definir tipos distintos de retorno para cada caso:
 >            return state;
 >     }
 
+Dando uma definição mais aprofundada dos resultados:
+
+ <ul>
+  <li>
+    Retorna o estado atual por não ter uma nova definição trazida pelo payload;
+  </li>
+  <li>
+    O estado atual é zerado e posteriormente redefinido para o valor vindo da action 'BOOKS_NEW',
+    ou melhor: do seu payload;</li>
+  <li>
+    Tem como padrão o estado atual da aplicação;
+  </li>
+ </ul>
+
 <h2>Selectors</h2>
