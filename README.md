@@ -167,7 +167,29 @@ para que estes sejam acessados no reducer.
 <h2>Reducers</h2>
 
 Os Reducers no NgRx são os responsáveis por lidar com a transição de um estado para o outro em uma aplicação. As funções de um 
-Reducer tratam estas transições determinando qual action tratar baseando-se em seu tipo, e com isso definindo a mudança no state.
+Reducer, chamadas de funções puras, tratam estas transições determinando qual action tratar baseando-se em seu tipo, e com isso
+definindo a mudança no state.
+
+<h3>O que é uma função pura ?</h3>
+
+Por definição uma função pura tem o valores trabalhados nela vindos exclusivamente via parâmetro: 
+
+>// pure function
+>
+>funtion Multiply( a, b ) {
+>  const result = a * b;
+>  return result;
+>}
+>
+>// impure function
+>
+>const c = 1;
+>
+>funtion Multiply( a, b ) {
+>  const result = a * b * c;
+>  return result;
+>}
+
 
 <h2>A Função de um Reducer</h2>
 
