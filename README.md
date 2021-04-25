@@ -224,18 +224,18 @@ O estado inial define um valor padrão, ou de um tipo padão, sendo este base pa
 de um novo estado. Lembrando que um novo state é definido a partir do estado anterior e do
 payload definido na action correspondente:
 
-> import { Book } from '...';
+>    import { Book } from '...';
 > 
-> export const initialState: Book = new Book();
+>    export const initialState: Book = new Book();
 
 <h3>Acesso as Actions</h3>
 
 Tendo em mente que a função dos reducers é definir um novo estado a partir do disparo de uma 
 ação e do seu tipo, é importante ter definidas as ações para comparação:
 
->import * as fromBookActions from './pix.actions';
+>   import * as fromBookActions from './pix.actions';
 >
->export function reducer( ... action: fromBookActions.BookActions ) {...}
+>   export function reducer( ... action: fromBookActions.BookActions ) {...}
 
 <h3>Definir Novos States</h3>
 
