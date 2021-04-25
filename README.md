@@ -175,7 +175,7 @@ para que estes sejam acessados no reducer.
 <h2>Reducers</h2>
 
 Os Reducers no NgRx são os responsáveis por lidar com a transição de um estado para o outro em uma aplicação. As funções de um 
-Reducer tratam estas transições determinando qual action tratar baseado-se em seu tipo, e igualmente definindo a mudança no state.
+Reducer tratam estas transições determinando qual action tratar baseando-se em seu tipo, e com isso definindo a mudança no state.
 
 <h2>A Função de um Reducer</h2>
 
@@ -186,7 +186,7 @@ Reducer tratam estas transições determinando qual action tratar baseado-se em 
    Uma interface ou tipo que define a forma do estado;
  </li>
  <li>
-   Os argumentos, incluíndo o estado inicial ou estado e ação mais recentes;
+   Os argumentos, incluíndo o estado inicial ou o estado e a ação mais recentes;
  </li>
  <li>
    A função que lida com as mudanças de estado e suas ações associadas;
@@ -216,7 +216,7 @@ Uma forma de definição de Reducers que a comunidade de desenvolvedores Angular
      }
     }
   
-Nesse caso é bastante importante entender alguns padrões, por exemplo: 
+Nesse caso é bastante importante entender alguns padrões, estes são: 
 
 <h3>Definição do Estado Inicial</h3>
 
