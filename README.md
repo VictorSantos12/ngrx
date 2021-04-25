@@ -99,17 +99,6 @@ Abaixo há alguns exemplos de actions resultantes de eventos:
   uma API;
 </h5>
 
-     {
-       type: '[Login Page] Login',
-       username: string;
-       password: string;
-     }
-
-<h5>
-   Esse caso descreve um evento disparado por um clique no botão de login, autenticando um usuário. O nome do
-   usuário e sua senha são definidos como dados adicionais providos pela página de login;
-</h5> 
-
 <h2>
   Escrevendo Actions
 </h2>
