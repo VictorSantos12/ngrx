@@ -48,6 +48,9 @@
   Arquitetura
 </h1>
 
+A arquitetura descrita aqui pretende mostrar os conceitos básicos de uma aplicação reativa no Angular, e em paralelo 
+introduzir como o processo de gerenciamento ocorre, inicialmente fora do component.
+
 <h2>
   Store
 </h2>
