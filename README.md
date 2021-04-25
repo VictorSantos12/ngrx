@@ -60,8 +60,8 @@ não definitiva. Abaixo temos um exemplo da declaração dos estados de uma apli
      export interface AppState {
      
         books: BookList[];
-        authors: AuthorDetailes[];
-        theme: Theme[];
+        authors: AuthorList[];
+        subjects: subjects[];
         
      }
 
