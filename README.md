@@ -247,4 +247,4 @@ de comparação é usada para definir tipos distintos de retorno para cada caso:
 >            return state;
 >     }
 
-
+<h2>Selectors</h2>
