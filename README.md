@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/61476935/115932683-c3e1ba00-a463-11eb-94c8-a906fcd5ad8b.png">
+  <img src="https://user-images.githubusercontent.com/61476935/116011820-52d60a00-a5fd-11eb-8e71-a634281329d6.png">
 </div>
 <br>     
 <img src="https://img.shields.io/static/v1?label=Angular&message=Library&color=purple&style=for-the-badge&logo=Angular"/>
