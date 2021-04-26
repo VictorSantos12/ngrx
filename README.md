@@ -299,7 +299,9 @@ de query, o ngrx/store possui os Selectors, que agem como um detector de mudanç
 informações concedidas
 
 A definição de Selectors ocorre em diferentes proporções dentro de uma apliação Angular. Muitas vezes o 
-estado é definido como uma arvote de propriedades com sub-propriedades
+estado é definido como uma árvore de propriedades com sub-propriedades
+
+<h2>Select</h2>
 
 Tendo em mente a definição dada acima quando a caracteristica de query atribuída a um Selector, em código
 isso pode ser definido da seguinte forma:
@@ -312,7 +314,7 @@ isso pode ser definido da seguinte forma:
 
 No exemplo acima o selector criado a partir do método <strong>createSelector( )</strong> retorna um array
 do tipo <strong>Professions[]</strong>. Com isso, qualquer component pode fazer uso dessas informações e
-tratá-las através de um subscribe, fazendo um update do valor do array Professions[]. Para esta funcionalidade
+tratá-las através de um subscribe, fazendo um update do valor do array Professions[]. Para esta funcionalidade,
 o ngrx disponibiliza um método específico para requisições no store da aplicação:
 
     this.store.select<Professions[]>(getAllProfessions)
@@ -329,4 +331,37 @@ o ngrx disponibiliza um método específico para requisições no store da aplic
     </h5>
 </div>
 
+<h2>Components</h2>
 
+Tendo introduzido conceitos que definem o gerenciamento de estados no Angular, estes ambientados na store da 
+aplicação, neste ponto iremos abordar como uma action é disparada e sua origem no cliclo de reatividade do
+ngrx/store
+
+Antes de mais nada, é de se esperar que um desenvolvedor Angular saiba a definição de um component, e o porque
+de serem tão importantes para o framework. Tendo isso em mente, entrando no aspecto reativo de um component, é 
+preciso deixar claro que, para o ngrx/store, cada component pode ter uma definição de estado. Como estado é
+exclusivamente associado a determinado component, service etc, logo, apenas este pode desencader um update no
+mesmo. Isso ocorre, como já foi visto, através do disparo de uma action
+
+<h2>Dispatch</h2>
+
+O método dispatch é o ponto de partida de mudança de estado, sendo ele o responsável por disparar a action que
+será tratada pelo reducer. Relembrando a propriedade de carragar um payload que as actions possuem, pode se 
+supor que o método responsável por dispará-la, também é responsável por dar acesso aos metadados que compõem a
+action
+
+    metodoDeDispatch() {
+       this.service.dispatchService(this.profession)
+       .subscribe(
+         (data: Professions[]) => {
+           this.store.dispatch(new Professions(data));
+       })
+     }
+
+<div align="center">
+    <h5>
+      Um método define a chamada de um service, passando para este um parâmetro de definição de request.
+      O subscribe é feito a partir do retorno desse service, e esse retorno é o metadado que irá sofrer
+      o dispatch para o store
+    </h5>
+</div>
