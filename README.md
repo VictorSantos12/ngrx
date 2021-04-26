@@ -14,7 +14,7 @@ A programação reativa é um paradigma baseado no fluxo de dados assíncronos e
   Store
 </h1>
 
-Store é o gerenciador de estados globais do RxJS para aplicações Angular. Inspirado pelo Redux, é um container de controle de
+Store é o gerenciador de estados globais do NgRX para aplicações Angular. Inspirado pelo Redux, é um container de controle de
 estados desenvolvido para ajudar na criação de aplicações reativas, consistentes e performáticas sobre a estrutura do Angular.
 
 <h2>
