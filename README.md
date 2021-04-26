@@ -12,6 +12,15 @@
   estados desenvolvido para ajudar na criação de aplicações reativas, consistentes e performáticas sobre a estrutura do Angular.
 
 <h2>
+  O Estado
+</h2>
+
+O estado de uma aplicação, componente ou service é definído pelo nível de acesso a informações que
+esses elementos estruturais possuem. A partir do momento em que é criado, um estado é por definição
+da arquitetura reativa imutável, ou seja, ele nunca é descartado, mas sofre um update ou outdate de
+informações
+
+<h2>
   Conceitos Chave
 </h2>
 
@@ -30,14 +39,6 @@
    O estado é acessado com o Store, um observable de estado e um observer de ações;
   </li>
 </ul>
-
-<h2>
-  O Estado
-</h2>
-
-O estado de uma aplicação, componente ou service é definído pelo nível de acesso a informações
-que eles possuem, do momento em que é criado até que outro seja definido. Um estado para o desenvolvimento
-reativo é imutável, ou seja, ele nunca é descartado, mas sofre um update ou outdate de informações
 
 <h2>
   Diagrama
@@ -291,3 +292,41 @@ Dando uma definição mais aprofundada dos resultados:
  </ul>
 
 <h2>Selectors</h2>
+
+Selectors são funções puras que recebem partes de um estado como um argumento de input e retornam partes 
+de informações que um component pode consumir. Assim como um banco de dados possui sua própria linguagem 
+de query, o ngrx/store possui os Selectors, que agem como um detector de mudanças nos estados a partir de
+informações concedidas
+
+A definição de Selectors ocorre em diferentes proporções dentro de uma apliação Angular. Muitas vezes o 
+estado é definido como uma arvote de propriedades com sub-propriedades
+
+Tendo em mente a definição dada acima quando a caracteristica de query atribuída a um Selector, em código
+isso pode ser definido da seguinte forma:
+
+    export const getAllProfessions =
+        createSelector(getState, (state): Professions[] => {
+            return state && state.professions;
+        }
+    );
+
+No exemplo acima o selector criado a partir do método <strong>createSelector( )</strong> retorna um array
+do tipo <strong>Professions[]</strong>. Com isso, qualquer component pode fazer uso dessas informações e
+tratá-las através de um subscribe, fazendo um update do valor do array Professions[]. Para esta funcionalidade
+o ngrx disponibiliza um método específico para requisições no store da aplicação:
+
+    this.store.select<Professions[]>(getAllProfessions)
+    .subscribe(
+      (data: professions) => {
+        ...
+      }
+    );
+
+<div align="center">
+    <h5>
+      A query é feita através de uma informação ou parte dela, como já foi dito. Nesse caso a query é feita 
+      por meio da definição do tipo da informação a ser buscada <strong>Professions[]</strong>
+    </h5>
+</div>
+
+
