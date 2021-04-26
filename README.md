@@ -8,14 +8,14 @@
   Reactive Pattern (rxJS)
 </h1>
 
-
+A programação reativa é um paradigma baseado no fluxo de dados assíncronos e na propagação de mudanças nesse fluxo
 
 <h1>
   Store
 </h1>
 
-  Store é o gerenciador de estados globais do RxJS para aplicações Angular. Inspirado pelo Redux, é um container de controle de
-  estados desenvolvido para ajudar na criação de aplicações reativas, consistentes e performáticas sobre a estrutura do Angular.
+Store é o gerenciador de estados globais do RxJS para aplicações Angular. Inspirado pelo Redux, é um container de controle de
+estados desenvolvido para ajudar na criação de aplicações reativas, consistentes e performáticas sobre a estrutura do Angular.
 
 <h2>
   O Estado
