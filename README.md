@@ -16,8 +16,8 @@
 </h2>
 
 O estado de uma aplicação, componente ou service é definído pelo nível de acesso a informações que
-esses elementos estruturais possuem. A partir do momento em que é criado, um estado é por definição
-da arquitetura reativa imutável, ou seja, ele nunca é descartado, mas sofre um update ou outdate de
+esses elementos estruturais possuem. A partir do momento em que é criado, um estado é, por definição
+da arquitetura reativa, imutável. Ou seja, ele nunca é descartado, mas sofre um update ou outdate de
 informações
 
 <h2>
