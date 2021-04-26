@@ -99,7 +99,7 @@ e tendo a função de representar a action que será despachada. O valor de um t
 Evento" e é usado para dizer a que tipo essa action se associa e de onde a action foi despachada. Também é
 possível adicionar propriedades a uma action, provendo contextos ou metadata adicionais.
 
-Abaixo há alguns exemplos de actions resultantes de eventos:
+Abaixo há um exemplo de action resultante de um evento:
 
      { 
         type: '[Auth API] Login Success'
@@ -303,7 +303,7 @@ estado é definido como uma árvore de propriedades com sub-propriedades
 
 <h2>Select</h2>
 
-Tendo em mente a definição dada acima quando a caracteristica de query atribuída a um Selector, em código
+Tendo em mente a definição dada acima quanto a caracteristica de query atribuída a um Selector, em código
 isso pode ser definido da seguinte forma:
 
     export const getAllProfessions =
@@ -334,13 +334,13 @@ o ngrx disponibiliza um método específico para requisições no store da aplic
 <h2>Components</h2>
 
 Tendo introduzido conceitos que definem o gerenciamento de estados no Angular, estes ambientados na store da 
-aplicação, neste ponto iremos abordar como uma action é disparada e sua origem no cliclo de reatividade do
+aplicação, neste ponto iremos abordar como uma action é disparada e sua origem no ciclo de reatividade do
 ngrx/store
 
 Antes de mais nada, é de se esperar que um desenvolvedor Angular saiba a definição de um component, e o porque
 de serem tão importantes para o framework. Tendo isso em mente, entrando no aspecto reativo de um component, é 
-preciso deixar claro que, para o ngrx/store, cada component pode ter uma definição de estado. Como estado é
-exclusivamente associado a determinado component, service etc, logo, apenas este pode desencader um update no
+preciso deixar claro que, para o ngrx/store, cada component pode ter uma definição de estado. Como um estado é
+exclusivamente associado a determinado component, service etc, logo, apenas este pode desencadear um update no
 mesmo. Isso ocorre, como já foi visto, através do disparo de uma action
 
 <h2>Dispatch</h2>
