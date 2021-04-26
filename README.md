@@ -5,6 +5,12 @@
 <img src="https://img.shields.io/static/v1?label=Angular&message=Library&color=purple&style=for-the-badge&logo=Angular"/>
 
 <h1>
+  Reactive Pattern (rxJS)
+</h1>
+
+
+
+<h1>
   Store
 </h1>
 
