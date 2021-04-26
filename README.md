@@ -362,6 +362,15 @@ action
     <h5>
       Um método define a chamada de um service, passando para este um parâmetro de definição de request.
       O subscribe é feito a partir do retorno desse service, e esse retorno é o metadado que irá sofrer
-      o dispatch para o store
+      o dispatch para o store. Logo abaixo temos uma representação do processo de gerenciamento do ngrx,
+      incluíndo aspectos definidos a pouco
     </h5>
 </div>
+
+<div align="center">
+   <img width="80%" src="https://user-images.githubusercontent.com/61476935/116027542-8f205f00-a62b-11eb-8e28-0ca4787a0be5.png">
+</div>
+
+
+
+
