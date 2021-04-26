@@ -303,7 +303,7 @@ estado é definido como uma árvore de propriedades com sub-propriedades
 
 <h2>Select</h2>
 
-Tendo em mente a definição dada acima quanto a caracteristica de query atribuída a um Selector, em código
+Tendo em mente a definição dada acima quanto a característica de query atribuída a um Selector, em código
 isso pode ser definido da seguinte forma:
 
     export const getAllProfessions =
