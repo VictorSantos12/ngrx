@@ -324,8 +324,8 @@ o ngrx disponibiliza um método específico para requisições no store da aplic
 
 <div align="center">
     <h5>
-      A query é feita através de uma informação ou parte dela, como já foi dito. Nesse caso a query é feita 
-      por meio da definição do tipo da informação a ser buscada <strong>Professions[]</strong>
+      A query é feita através de uma informação ou parte dela, como já foi dito. Nesse caso, a query é feita 
+      por meio da definição do tipo da informação a ser buscada: <strong>Professions[]</strong>
     </h5>
 </div>
 
