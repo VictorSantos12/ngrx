@@ -58,9 +58,11 @@ informações
   <img width="80%" src="https://user-images.githubusercontent.com/61476935/115942501-fbab2a80-a480-11eb-8386-ff31ff33f434.png">
 </div>
 
-<h1>
-  Arquitetura
-</h1>
+<div align="center">
+  <h1>
+   Arquitetura
+  </h1>
+</div>
 
 A arquitetura descrita aqui pretende mostrar os conceitos básicos de uma aplicação reativa no Angular, e em paralelo 
 introduzir como o processo de gerenciamento ocorre, inicialmente fora do component.
